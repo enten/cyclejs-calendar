@@ -33,7 +33,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "browserify": "browserify example/src/main.js -t babelify --outfile example/main.js",
+    "build": "browserify -s src/index.js -t babelify --outfile index.js",
+    "build:example": "browserify example/src/main.js -t babelify --outfile example/main.js",
     "start": "npm install && npm run browserify && echo 'OPEN example/index.html IN YOUR BROWSER'"
   }
 }
