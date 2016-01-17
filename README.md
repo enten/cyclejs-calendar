@@ -2,6 +2,12 @@
 
 > Calendar component for Cycle.js
 
+## Install
+
+```bash
+npm install cyclejs-calendar --save
+```
+
 ## [Demo live](http://enten.github.io/cyclejs-calendar/example/)
 
 [![Demo live preview](screenshot.png)](http://enten.github.io/cyclejs-calendar/example/)
