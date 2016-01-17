@@ -2,7 +2,9 @@
 
 > Calendar component for Cycle.js
 
-## [Live demo](http://enten.github.io/cyclejs-calendar/example/)
+## [Demo live](http://enten.github.io/cyclejs-calendar/example/)
+
+[![Demo live preview](screenshot.png)](http://enten.github.io/cyclejs-calendar/example/)
 
 ## Usage
 
