@@ -42,3 +42,7 @@ Cycle.run(main, {
   DOM: makeDOMDriver('#main-container')
 });
 ```
+
+## License
+
+MIT

@@ -84,6 +84,10 @@ function view(model$) {
 }
 
 function CalendarWidget({DOM, props$}) {
+  if (!props$) {
+    props$ = Observable.of({});
+  }
+
   const initProps$ = props$
     .merge(Observable.of(defaultProps))
     .reduce((x, y) => defaultsDeep(x, y));
