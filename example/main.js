@@ -126,6 +126,10 @@ function CalendarWidget(_ref) {
   var DOM = _ref.DOM;
   var props$ = _ref.props$;
 
+  if (!props$) {
+    props$ = _rx.Observable.of({});
+  }
+
   var initProps$ = props$.merge(_rx.Observable.of(defaultProps)).reduce(function (x, y) {
     return (0, _lodash.defaultsDeep)(x, y);
   });
